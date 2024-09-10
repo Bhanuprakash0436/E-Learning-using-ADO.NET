@@ -244,7 +244,28 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Outputs\About Us Form.png" />
+    <Content Include="Outputs\Add Course.png" />
+    <Content Include="Outputs\Admin Log In Portal.png" />
+    <Content Include="Outputs\Admin Page After  Log In.png" />
+    <Content Include="Outputs\Admin Registration Form.png" />
+    <Content Include="Outputs\Certificate Form.png" />
+    <Content Include="Outputs\Certificate Print Form.png" />
+    <Content Include="Outputs\Course Content Form.png" />
+    <Content Include="Outputs\Display course.png" />
+    <Content Include="Outputs\Download Certificate Form.png" />
     <Content Include="Outputs\Homepage1.png" />
+    <Content Include="Outputs\HomePage2.png" />
+    <Content Include="Outputs\Modify Course.png" />
+    <Content Include="Outputs\Student Log In Portal.png" />
+    <Content Include="Outputs\Student Page After Log in.png" />
+    <Content Include="Outputs\Student Profile.png" />
+    <Content Include="Outputs\Student Registration Form.png" />
+    <Content Include="Outputs\Student Test Completed Form.png" />
+    <Content Include="Outputs\Student Test Form.png" />
+    <Content Include="Outputs\View Course Details Form.png" />
+    <Content Include="Outputs\View Course Details.png" />
+    <Content Include="Outputs\View Student Details.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
