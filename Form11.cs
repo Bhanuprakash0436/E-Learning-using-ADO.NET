@@ -39,9 +39,18 @@ namespace adoproject
         private void toolStripMenuItem2_Click_1(object sender, EventArgs e)
         {
 
-            UpdateContent("Content of Unit 1.1:\nProgramming is the process of designing and building an executable computer program to accomplish a specific computing" +
+            UpdateContent("1.1:\nProgramming is the process of designing and building an executable computer program to accomplish a specific computing" +
                 "\n result or to perform a particular task. It's an essential skill in the field of computer science and technology, and it involves several key concepts " +
-                "\nand practices. Here's an overview to get you started:");
+                "\nand practices. Here's an overview to get you started:A programming language is a formal language that specifies a set of instructions for a computer to " +
+                "\nperform specific tasks. It’s used to write software programs and applications, and to control and manipulate computer systems. There are many different " +
+                "\nprogramming languages, each with its own syntax, structure, and set of commands. Some of the most commonly used programming languages include Java, Python," +
+                "\nC++, JavaScript, and C#. The choice of programming language depends on the specific requirements of a project, including the platform being used, the intended" +
+                "\naudience, and the desired outcome. Programming languages continue to evolve and change over time, with new languages being developed and older ones being " +
+                "\nupdated to meet changing needs.\r\n\r\nAre you aiming to become a software engineer one day? Do you also want to develop a mobile application that people all" +
+                "\nover the world would love to use? Are you passionate enough to take the big step to enter the world of programming? Then you are in the right place because " +
+                "\nthrough this article you will get a brief introduction to programming. Now before we understand what programming is, you must know what is a computer. A computer" +
+                "\nis a device that can accept human instruction, processes it, and responds to it or a computer is a computational device that is used to process the data under" +
+                "\nthe control of a computer program. Program is a sequence of instruction along with data. \r\n\r\nThe basic components of a computer are: \r\n\r\nInput unit\r\n" + "Central Processing Unit(CPU)\r\nOutput unit");
         }
         private void UpdateContent(string content)
         {
@@ -209,6 +218,20 @@ namespace adoproject
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form8 f = new Form8();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form8 f = new Form8();
+            f.ShowDialog();
+            this.Close();
         }
     }
 }
